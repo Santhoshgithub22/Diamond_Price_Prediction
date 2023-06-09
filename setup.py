@@ -10,7 +10,7 @@ def get_requirements(filepath:str)->List[str]:
         requirements = file_obj.readlines() # there /n is available for line by line, so we should replace it
         requirements = [req.replace("\n", "") for req in requirements]
 
-        if HYPEN_E_DOT in requirements:
+        if HYPEN_E_DOT in requirements:     
             requirements.remove(HYPEN_E_DOT)
 
     return requirements
