@@ -97,8 +97,11 @@ class DataTransformation:
 
             logging.info("Applying preprocessing object on training and testing datasets.")
 
-            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
-            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
+            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)] # We are just concatenating our input train and output train
+            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)] # we are just concatenating our input test and output test
+            # above 2 lines edhukku use panni irukom na, data transformation panna aprm neraya rows and columns vara chance irukku
+            # data va input ah kudukurappa, again modhala irukku run aaga vida mudiyadhu, so just concatenating with array
+            # idhu pandrapa it will run very quickly.
 
             save_object(
 
