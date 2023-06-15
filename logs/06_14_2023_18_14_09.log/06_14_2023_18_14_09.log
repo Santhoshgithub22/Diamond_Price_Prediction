@@ -1,0 +1,27 @@
+[ 2023-06-14 18:14:10,420 ] 26 root - INFO - Data Ingestion Method Starts
+[ 2023-06-14 18:14:10,594 ] 29 root - INFO - Dataset read as pandas dataframe
+[ 2023-06-14 18:14:13,467 ] 34 root - INFO - Train and Test Split
+[ 2023-06-14 18:14:14,448 ] 73 root - INFO - Read train and test data started
+[ 2023-06-14 18:14:14,619 ] 77 root - INFO - Read train and test data completed
+[ 2023-06-14 18:14:14,619 ] 78 root - INFO - Train Dataframe Head: 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   11504   0.41      Ideal     E    VVS2   60.6   56.0  4.85  4.80  2.93   1181
+1   95284   1.23  Very Good     H     VS1   59.9   59.0  6.91  7.01  4.19   7418
+2  184777   1.70    Premium     H     VS2   62.0   58.0  7.61  7.66  4.74  12755
+3    5419   0.33      Ideal     F    VVS1   61.2   56.0  4.47  4.44  2.73   1020
+4   45466   0.33  Very Good     I     SI1   62.1   58.0  4.41  4.45  2.75    445
+[ 2023-06-14 18:14:14,619 ] 79 root - INFO - Test Dataframe Head: 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   14868   0.50      Ideal     D     SI1   62.1   57.0  5.05  5.08  3.14   1355
+1  165613   2.00  Very Good     G     SI2   59.5   57.0  8.08  8.15  4.89  14691
+2   96727   0.27    Premium     E    VVS1   60.5   59.0  4.19  4.16  2.52    844
+3  145593   0.32    Premium     I    VVS1   61.2   59.0  4.43  4.44  2.71    707
+4  118689   1.19      Ideal     H     SI1   62.5   56.0  6.77  6.81  4.23   5797
+[ 2023-06-14 18:14:14,619 ] 81 root - INFO - obtaining Preprocessing Object
+[ 2023-06-14 18:14:14,619 ] 26 root - INFO - Data Transformation Initiated
+[ 2023-06-14 18:14:14,619 ] 37 root - INFO - Pipeline Initiated
+[ 2023-06-14 18:14:14,935 ] 98 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-06-14 18:14:14,935 ] 112 root - INFO - Preprocessor pickle file saved
+[ 2023-06-14 18:14:14,951 ] 24 root - INFO - Splitting dependent and independent variables from train and test data
+[ 2023-06-14 18:14:15,665 ] 42 root - INFO - Model Report : {'LinearRegression': 0.9362906819996049, 'Lasso': 0.9362869814082755, 'Ridge': 0.9362900967491627, 'ElasticNet': 0.8544967219374031}
+[ 2023-06-14 18:14:15,665 ] 53 root - INFO - Best Model Found , Model Name : LinearRegression , R2 Score : 0.9362906819996049
