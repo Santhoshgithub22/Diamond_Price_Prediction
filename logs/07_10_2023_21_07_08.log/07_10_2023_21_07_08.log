@@ -1,0 +1,48 @@
+[ 2023-07-10 21:07:19,547 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-10 21:07:19,547 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-10 21:07:32,737 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:07:32] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:07:33,639 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:07:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:07:39,169 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:07:39] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:07:55,708 ] 67 root - INFO - Dataframe Gathered
+[ 2023-07-10 21:07:56,205 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:07:56] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:07:57,669 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:07:57] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:14:56,589 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:14:56] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:15:00,351 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:15:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:15:26,054 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:15:26] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:15:33,267 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:15:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:17:15,111 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:17:15] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:17:16,768 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:17:16] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:17:26,535 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:17:26] "[33mGET /predicrt HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:17:30,291 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:17:30] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:17:34,553 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 22, in predict_datapoint
+    carat=float(request.form.get('carat')),
+ValueError: could not convert string to float: ''
+[ 2023-07-10 21:17:34,565 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:17:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-10 21:18:05,670 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:18:05] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:18:48,512 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:18:48] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:23:54,350 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:23:54] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:24:00,598 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:24:03,152 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:03] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:24:50,508 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:24:51,676 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:24:51,960 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:24:52,187 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:24:52,403 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:24:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:26:02,052 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:26:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:26:22,548 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:26:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:26:24,024 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:26:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:26:24,252 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:26:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:26:24,464 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:26:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:27:02,528 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:27:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:27:02,796 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:27:02] "GET / HTTP/1.1" 200 -

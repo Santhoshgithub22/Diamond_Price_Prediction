@@ -1,0 +1,14 @@
+[ 2023-07-11 19:26:14,026 ] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-11 19:26:14,026 ] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-11 19:26:21,729 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:26:21] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 19:26:21,887 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:26:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-11 19:26:33,572 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:26:33] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:26:46,425 ] 67 root - INFO - Dataframe Gathered
+[ 2023-07-11 19:26:46,741 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:26:46] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:27:17,675 ] 67 root - INFO - Dataframe Gathered
+[ 2023-07-11 19:27:17,680 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:27:17] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:27:19,713 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:27:19] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:27:21,397 ] 67 root - INFO - Dataframe Gathered
+[ 2023-07-11 19:27:21,413 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:27:21] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:27:23,028 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:27:23] "GET /predict HTTP/1.1" 200 -

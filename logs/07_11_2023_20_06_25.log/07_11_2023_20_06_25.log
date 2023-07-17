@@ -1,0 +1,15 @@
+[ 2023-07-11 20:06:29,064 ] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-11 20:06:29,065 ] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-11 20:06:39,369 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:06:39] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 20:06:39,426 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:06:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-11 20:06:47,919 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:06:47] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 20:07:16,779 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:07:16] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 20:07:16,802 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:07:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-11 20:08:52,595 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:08:52] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 20:09:07,891 ] 67 root - INFO - Dataframe Gathered
+[ 2023-07-11 20:09:08,275 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:09:08] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-11 20:09:33,646 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:09:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 20:09:33,668 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:09:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-11 20:09:57,738 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:09:57] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 20:09:57,762 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:09:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

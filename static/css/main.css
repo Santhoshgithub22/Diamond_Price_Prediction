@@ -1,0 +1,18 @@
+body{
+
+    background-image:url('/Images/Diamond.jpg');
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    padding-right: 20em;
+    
+    padding-left: 11em;
+        
+    font-family: Courier New, “Lucida Console”;
+    
+    color: rgb(2, 52, 75);
+}

@@ -1,0 +1,5 @@
+[ 2023-07-11 20:11:04,844 ] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-11 20:11:04,844 ] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-11 20:11:16,475 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:11:16] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 20:11:16,521 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 20:11:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

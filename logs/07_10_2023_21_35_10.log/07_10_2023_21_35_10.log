@@ -1,0 +1,17 @@
+[ 2023-07-10 21:35:13,554 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-10 21:35:13,554 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-10 21:35:48,215 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:35:48] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:35:48,336 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:35:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:35:49,168 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:35:49] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:35:57,148 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:35:57] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:37:23,577 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:37:23,595 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:37:23,606 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:23] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:37:24,735 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:37:24,751 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:37:25,005 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:37:25,027 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:37:50,687 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:37:50,873 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:37:50,892 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:37:50] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -

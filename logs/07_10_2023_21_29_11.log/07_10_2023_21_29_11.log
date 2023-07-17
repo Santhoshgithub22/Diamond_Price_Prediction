@@ -1,0 +1,40 @@
+[ 2023-07-10 21:29:12,878 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-10 21:29:12,878 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-10 21:29:22,742 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:29:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:29:22,985 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:29:22] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-10 21:29:23,056 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:29:23] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:29:32,158 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:29:32] "[33mGET /predicr HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:29:35,138 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:29:35] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:30:02,717 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:02] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-10 21:30:07,276 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:07] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:07,292 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:07] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-10 21:30:07,300 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:07] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:30:08,329 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:08] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:08,346 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:30:09,181 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:09,200 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:30:09,512 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:09,538 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:30:09,804 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:09,821 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:30:10,976 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:11,000 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:30:11,545 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:11] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:30:11,572 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:30:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:33:45,081 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:45] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:33:45,107 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:33:45,122 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:45] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-10 21:33:46,310 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:33:46,445 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:33:58,952 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:33:58,982 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:33:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:34:00,133 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:34:00,151 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:34:00,430 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:34:00,449 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:34:00,652 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:34:00,672 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:34:22,909 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-10 21:34:22,938 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-10 21:34:23,859 ] 187 werkzeug - INFO - 127.0.0.1 - - [10/Jul/2023 21:34:23] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -

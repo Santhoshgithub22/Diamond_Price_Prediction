@@ -1,0 +1,19 @@
+[ 2023-07-11 19:06:34,975 ] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-11 19:06:34,975 ] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-11 19:06:45,182 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:06:45] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 19:06:45,354 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:06:45] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-11 19:06:45,366 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:06:45] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-11 19:06:46,537 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:06:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-11 19:06:49,910 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:06:49] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:07:09,966 ] 67 root - INFO - Dataframe Gathered
+[ 2023-07-11 19:07:10,181 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:07:10] "POST /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:07:10,207 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:07:10] "[33mGET /Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-11 19:07:13,342 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:07:13] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:08:50,073 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:08:50] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:08:51,339 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:08:51] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:08:51,545 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:08:51] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-11 19:09:56,695 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:09:56] "GET / HTTP/1.1" 200 -
+[ 2023-07-11 19:09:56,917 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:09:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-11 19:09:56,943 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:09:56] "[33mGET /Images/Diamond.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-11 19:10:00,396 ] 186 werkzeug - INFO - 127.0.0.1 - - [11/Jul/2023 19:10:00] "GET /predict HTTP/1.1" 200 -
